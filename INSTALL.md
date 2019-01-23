@@ -24,3 +24,8 @@ when you activated the virtual environment
  * start the server with: `./manage.py runserver`
  * navigate to link provided in your favorite webbrowser: http://127.0.0.1:8000
  * to access admin environment: http://127.0.0.1:8000/admin
+
+## installing labels for neomodel
+in the activated virtual environment
+
+ * `neomodel_install_labels neoworld/models.py --db bolt://neo4j:<PASSWORD>@localhost:7687`
