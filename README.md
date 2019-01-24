@@ -42,7 +42,7 @@ Depends if you use pip or pipenv, alter the `requirements.txt` (for pip) or `Pip
 
 # Configuration of django for use with neomodel
 * The package `django-neomodel` is not used. So you experience pure behaviour of neomodel (just as any other python to neo4j using neomodel implementation)
-* The configuration is performed in [`config/settings.py`](config/settings.py:L85).
+* The configuration is performed in [`config/settings.py`](config/settings.py#L85).
 
 ```python
 # Neomodel config
