@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 #neomodel = "==3.3.0"
-neomodel = "==3.2.9"
+neomodel = "https://github.com/KE-works/neomodel.git@feature_database_singleton#wheel=neomodel"
+#neomodel = "==3.2.9"
 Django = "*"
 Faker= "*"
 

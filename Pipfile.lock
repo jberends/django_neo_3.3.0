@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "24043bfe06a4287e969189e839763a47d2712ce8765d4faa736256cf8296291c"
+            "sha256": "cca9019146beb7e731e7a8ed198b22c6e935550c715c0e549153fa33baf9ea01"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -31,25 +31,6 @@
             ],
             "index": "pypi",
             "version": "==1.0.2"
-        },
-        "neo4j-driver": {
-            "hashes": [
-                "sha256:6a3872f28d34e711e2f6335ae3f4ff10bae338b4986d3f0fe46c592ca1820877"
-            ],
-            "version": "==1.6.2"
-        },
-        "neomodel": {
-            "hashes": [
-                "sha256:2f7cd8aa60a0069d3cde4938581bfafc690d03820b48cf93aa727b6ec4bd923b"
-            ],
-            "index": "pypi",
-            "version": "==3.2.9"
-        },
-        "neotime": {
-            "hashes": [
-                "sha256:849f2e7a67204d67d4cb57c523b6e1cf4d36baf105197294fee6585e76ebc632"
-            ],
-            "version": "==1.0.0"
         },
         "python-dateutil": {
             "hashes": [
