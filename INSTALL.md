@@ -5,7 +5,7 @@ To install and make it work follow this
 ## when using pipenv 
 On the bash shell do:
 
- * `pipenv install -r requirements.txt --three`
+ * `pipenv install --three`
  * `pipenv shell`
  
 ## when using pip

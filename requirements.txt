@@ -1,2 +1,7 @@
 django
-neomodel
+neomodel==3.2.9
+#neomodel==3.3.0
+
+
+# for random name generator
+Faker
