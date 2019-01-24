@@ -97,3 +97,7 @@ neomodel.exceptions.ModelDefinitionMismatch: Node with labels Person does not re
 # Credits
 
 * @jberends / Jan 2019
+
+# LICENSE
+
+* The Unlicense - http://unlicense.org - see [LICENSE](LICENSE)
