@@ -21,7 +21,7 @@ def home(request):
     """Homepage"""
 
     # inject installation text here
-    with open(os.path.join(os.path.dirname(__file__),'../INSTALL.md')) as fd:
+    with open(os.path.join(os.path.dirname(__file__),'../README.md')) as fd:
         installation_text = fd.read()
 
     return HttpResponse(HOMEPAGE.format(installation_text=installation_text))
