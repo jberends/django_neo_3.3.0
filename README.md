@@ -29,8 +29,8 @@ When you activated the virtual environment
  * `./manage.py createsuperuser`
  * provide superuser name, email and pass
  * start the server with: `./manage.py runserver`
+   * when using Pycharm, a `Run server` command is provided and can be used to start or debug the running server.
  * navigate to link provided in your favorite webbrowser: http://127.0.0.1:8000
- * to access admin environment: http://127.0.0.1:8000/admin
 
 ## Installing labels for neomodel
 In the activated virtual environment.
@@ -40,7 +40,21 @@ In the activated virtual environment.
 ## Switch between neomodel versions
 Depends if you use pip or pipenv, alter the `requirements.txt` (for pip) or `Pipfile` to switch to different version of neomodel. 
 
-## Error when using neomodel 3.3.0
+# Configuration of django for use with neomodel
+* The package `django-neomodel` is not used. So you experience pure behaviour of neomodel (just as any other python to neo4j using neomodel implementation)
+* The configuration is performed in [`config/settings.py`](config/settings.py:L85).
+
+```python
+# Neomodel config
+# https://neomodel.readthedocs.io/en/latest/getting_started.html
+from neomodel import config as neoconfig
+neoconfig.DATABASE_URL = 'bolt://neo4j:<PASSWORD>@localhost:7687'
+
+```
+
+* The neomodel is defined in [`neoworld/models.py`](neoworld/models.py). It implements the Tutorial code.
+
+# Error when using neomodel 3.3.0
 
  * switch to neomodel version 3.3.0
  * restart the server
